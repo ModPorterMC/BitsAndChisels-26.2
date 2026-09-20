@@ -4,12 +4,17 @@
 > Port work includes build/Loom updates, NBT and rendering API migration,
 > mesh/rendering fixes, UV clipping fixes, and other 26.2 compatibility changes.
 >
+> **Original project:** [CoolMineman/BitsAndChisels](https://github.com/CoolMineman/BitsAndChisels)  
+> **License:** CC0-1.0
+>
 > Maintained as part of [ModPorterMC](https://github.com/ModPorterMC).
 >
 > ---
 
 # Bits And Chisels
+
 ![Java CI with Brachyura](https://github.com/CoolMineman/BitsAndChisels/workflows/Java%20CI%20with%20Brachyura/badge.svg)
+
 [https://github.com/CoolMineman/BitsAndChisels](https://github.com/CoolMineman/BitsAndChisels)
 
 Bits and Chisels is a Fabric mod for modern Minecraft that lets you remove small bits from blocks using chisels. You can use these bits to build detailed decorations or whatever else you want. Requires Fabric API. Has Canvas Renderer support for shaders. Uses greedy meshing and the Fabric Renderer API to achieve high FPS post-1.13 rendering changes. This mod was inspired by Chisel and Bits.
@@ -32,13 +37,11 @@ The Iron Chisel carves out 64-bit (4 x 4 x 4) areas within blocks by left-clicki
 
 ![Simple Iron Chisel](images/simple_iron_chisel_recipe.png)
 
-
 ### Diamond Chisel
 
 The Diamond Chisel can carve out small 1-bit (1 x 1 x 1) areas within blocks by left-clicking with it. This is useful for creating very small details in blocks.
 
 ![Simple Diamond Chisel](images/simple_diamond_chisel_recipe.png)
-
 
 ### Smart Chisel
 
@@ -48,7 +51,7 @@ The Smart Chisel can carve out an area of a block by left-clicking on two differ
 
 ### The Wrench
 
-The Wrench tool allows you to rotate your Bit Collection Block 90-degrees by right clicking on it. You can change which axis the collection rotates depending on which side of the block you click on. 
+The Wrench tool allows you to rotate your Bit Collection Block 90-degrees by right clicking on it. You can change which axis the collection rotates depending on which side of the block you click on.
 
 ![The Wrench](images/wrench_recipe.png)
 
@@ -57,7 +60,6 @@ The Wrench tool allows you to rotate your Bit Collection Block 90-degrees by rig
 The Blueprint allows you to create a copy of your Bit Collection Block by right-clicking with an unwritten blueprint. This can then be pasted into the world by right-clicking with a written blueprint. The blueprint consumes bits from your inventory to copy the collection into the world. If you do not have enough bits in your inventory to completely fill the blueprint, then only part of the copy will be pasted.
 
 ![The Blueprint](images/blueprint_recipe.png)
-
 
 ## License
 
