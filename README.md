@@ -1,3 +1,13 @@
+> ## ModPorterMC Port
+> This fork contains a Minecraft **26.2 Fabric compatibility port** of Bits and Chisels.
+>
+> Port work includes build/Loom updates, NBT and rendering API migration,
+> mesh/rendering fixes, UV clipping fixes, and other 26.2 compatibility changes.
+>
+> Maintained as part of [ModPorterMC](https://github.com/ModPorterMC).
+>
+> ---
+
 # Bits And Chisels
 ![Java CI with Brachyura](https://github.com/CoolMineman/BitsAndChisels/workflows/Java%20CI%20with%20Brachyura/badge.svg)
 [https://github.com/CoolMineman/BitsAndChisels](https://github.com/CoolMineman/BitsAndChisels)
